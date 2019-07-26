@@ -37,7 +37,7 @@ parser.add_argument('--hidden_dims',
 parser.add_argument('--learning_rate',
                     type=float,
                     help='Learning rate for backpropagation',
-                    default=[0.001])
+                    default=0.001)
 
 
 class Autoencoder(nn.Module):
